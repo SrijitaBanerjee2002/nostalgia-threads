@@ -130,3 +130,13 @@ Lastly, I want to acknowledge my **teammates** for laying down the initial found
 
 This project, like all things meaningful, was made possible by collective effort—and I'm thankful for every part of it.
 
+## 👩🏽‍💻✨  About Me
+
+Hi! I’m Srijita, a recent Computer Science graduate from UIC with a passion for storytelling and art through tech. I love working on projects that bring together thoughtful design, meaningful interaction, and clean architecture — especially when they’re inspired by real-life emotions and cultural connection.
+
+Nostalgia Threads is one of those deeply personal ideas I’ve wanted to explore for a while — and I’m proud to keep refining it as I grow.
+
+Feel free to connect or reach out 🫶  
+📧 Email: [banerjeesrj@gmail.com]  
+🔗 LinkedIn: [https://www.linkedin.com/in/srijitabanerjee/]
+
