@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./Assets/Brown_vintage_header.jpg" alt="Vintage Aesthetic Banner" width="100%" />
+  <img src="./Assets/Brown_vintage_header.jpeg" alt="Vintage Aesthetic Banner" width="100%" />
 </p>
 
 
