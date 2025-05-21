@@ -23,8 +23,6 @@ The first version of the project was developed in a team setting, but I'm curren
 - Responsive UI with modals for posting and account access.
 - **JWT-based authentication** and **session flow**.
 
----
-
 ## Tech Stack 🧱 
 ![Tech Stack](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ29hanh6b2JrcDBkeHprMmhxbXZ6am9yZWV1anloNWpibGZzZ243ZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3hLW6IdSX4CMW8RrBn/giphy.gif)
 
