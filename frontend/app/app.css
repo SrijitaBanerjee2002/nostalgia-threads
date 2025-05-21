@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+:root {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  /* --bg-navbar: #44E5E7;
+  --bg-card: #B7F5F6;
+  --bg-tag: #81ECEE;
+  --bg-tag-hover: #6CD9DB;
+  --bg-button: #1BD7DA;
+  --bg-button-hover: #17B2B5;
+  --bg-color: #C9F7F8; */
+
+  --bg-navbar: var(--color-blue-800);
+  --bg-card: var(--color-blue-200);
+  --bg-tag: var(--color-blue-300);
+  --bg-tag-hover: var(--color-blue-400);
+  --bg-button: var(--color-blue-500);
+  --bg-button-hover: var(--color-blue-600);
+  --bg-color: var(--color-white-500) ;
+}
+
+html,
+body {
+	background-color: var(--bg-color);
+}
