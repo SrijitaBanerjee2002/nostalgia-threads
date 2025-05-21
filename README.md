@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://images.wallpapers.com/images/hd/vintage-aesthetic-background-lowhpwl1jjxfu0u8.jpg" alt="Vintage Aesthetic Banner" width="100%" />
+  <img src="./assets/nostalgia threads header.jpg" alt="Vintage Aesthetic Banner" width="100%" />
 </p>
 
 
