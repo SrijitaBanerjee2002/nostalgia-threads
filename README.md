@@ -30,7 +30,6 @@ The first version of the project was developed in a team setting, but I'm curren
 
 ## Tech Stack
 
-|--------------------------------------------------------------------------|
 | **Layer**     | **Tools & Frameworks**                                   |
 |---------------|----------------------------------------------------------|
 | **Frontend**  | React 19, React Router 7, Vite, Tailwind CSS             |
@@ -38,4 +37,3 @@ The first version of the project was developed in a team setting, but I'm curren
 | **Database**  | SQLite - schema planned and implemented by me            |
 | **Auth**      | Simple JWT (access and refresh token handling            |
 | **Dev Tools** | Python venv, npm/yarn, Docker (optional frontend build   |
-|--------------------------------------------------------------------------|
