@@ -1,113 +1,41 @@
-# Nostalgia Threads 🌟
+# Nostalgia Threads
+*A space to share and connect through cultural memories.*
 
-A social platform for sharing and connecting through cultural memories.
+---
 
-## Landing Page
+## About the Project
+Nostalgia Threads is a social web platform designed to let users could share short, emotionally resonant stories tied to region, culture, or identity. Think of it as a digital memory lane - filled with stories, snippets, and shared experiences.
 
-![Home Page](./home.png)
+---
 
-## Home Page
+## Project Status and Personal Note
+Nostalgia Threads was born out of a shared desire to build a space where people could share short, culture-rooted memories, and emotionally connect across communities. 
+I came up with the original idea, mapped out the tech stack, and designed the early system architecture - including building the initial database structure.
 
-![Feed](./feed.png)
+The first version of the project was developed in a team setting, but I'm currently working on refining and evolving it into something more aligned with my creative vision. From redesigning the UI to expanding features, this is an ongoing passion project that I'm actively rebuilding and reimagining. <insert thought emoji here>
 
-## About
+---
 
-Memory Lane is a community-driven platform where users can share their cultural memories through short "memory cards". Connect with others through shared experiences, discover new cultural perspectives, and find comfort in shared nostalgia.
+## Core Features
 
-## Features 🎯
+- Users can post short text-based memories (max 500 characters)
+- Each memory is tagged with a region and optional hashtags
+- Reactions feature allows users to respond with emojis
+- Memories are stored in a **priority queue** to show the most-reacted ones first
+- Tag search and region based filtering powered by a **Trie data structure**.
+- Responsive UI with modals for posting and account access.
+- **JWT-based authentication** and **session flow**.
 
-- 📝 Share short memory stories (up to 500 characters)
-- 🏷️ Tag-based organization with smart auto-complete
-- 🌍 Region-based filtering
-- 💝 Interactive reactions:
-  - 🥲 Homesick
-  - 💖 Relate
-  - 👀 Curious
-- 🔥 Trending section showing most relatable memories
-- 🔍 Smart tag search with auto-suggestions
+---
 
-## How to use this project
+## Tech Stack
 
-1. Browse the memory feed to discover stories
-2. Click on tags to find related memories
-3. Share your own memory:
-   - Write your story (anonymous option available)
-   - Add your region
-   - Include relevant tags
-   - Submit and connect!
-
-## Technical Overview 🛠️
-
-### Frontend
-
-- Memory card feed interface
-- Interactive reaction system
-- Tag-based search with auto-complete
-- Post creation form
-
-### Backend
-
-- RESTful API endpoints:
-  - GET /api/memories
-  - POST /api/memories
-  - PATCH /api/memories/:id/react
-  - GET /api/memories?tag=:tag
-- Data Structures:
-  - Trie for tag auto-completion
-  - Priority Queue for trending posts
-  - Memory storage system
-
-## Table of Contents
-
-- [About](#about)
-- [Features](#features-)
-- [How to use this project](#how-to-use-this-project)
-- [Technical Overview](#technical-overview-%EF%B8%8F)
-- [Project Roadmap](#project-roadmap)
-- [Contributors](#contributors)
-- [Acknowledgments](#acknowledgments)
-
-<!-- - Use this html element to create a back to top button. -->
-<p align="right"><a href="#how-to-use-this-project">back to top ⬆️</a></p>
-
-## Project Roadmap
-
-### Phase 1: Core Features
-
-- [x] Basic memory feed
-- [x] Memory posting system
-- [x] Reaction system
-- [x] Tag implementation
-
-### Phase 2: Advanced Features
-
-- [ ] Trending section
-- [ ] Advanced tag search
-- [x] User profiles
-- [x] Mobile optimization
-
-<!-- - Use this html element to create a back to top button. -->
-<p align="right"><a href="#how-to-use-this-project">back to top ⬆️</a></p>
-
-## Contributors<!-- Required -->
-
-### Team Members 👥
-
-- Umar Khan
-- Srijita Banerjee
-- Awaish
-
-<!-- <a href="https://github.com/your-repo/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=your-repo" />
-</a> -->
-
-## Acknowledgments<!-- Optional -->
-
-Special thanks to:
-
-- Professor Reckinger for guidance and support
-- Nandana for valuable assistance
-- All beta testers and early users of Nostalgia Threads
-
-<!-- - Use this html element to create a back to top button. -->
-<p align="right"><a href="#how-to-use-this-project">back to top ⬆️</a></p>
+|--------------------------------------------------------------------------|
+| **Layer**     | **Tools & Frameworks**                                   |
+|---------------|----------------------------------------------------------|
+| **Frontend**  | React 19, React Router 7, Vite, Tailwind CSS             |
+| **Backend**   | Django 5, Django Rest Framework, Python 3.9              |
+| **Database**  | SQLite - schema planned and implemented by me            |
+| **Auth**      | Simple JWT (access and refresh token handling            |
+| **Dev Tools** | Python venv, npm/yarn, Docker (optional frontend build   |
+|--------------------------------------------------------------------------|
