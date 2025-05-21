@@ -1,7 +1,7 @@
 <p align="center">
   <img src="./Assets/Brown_vintage_header.jpeg" alt="Vintage Aesthetic Banner" width="100%" />
 </p>
-
+Header credit: Pinterest
 
 # ✨ Nostalgia Threads 🧵🤎  
 *A space to share and connect through cultural memories.*
@@ -29,7 +29,6 @@ The first version of the project was developed in a team setting, but I'm curren
 - **JWT-based authentication** and **session flow**.
 
 ## Tech Stack 🧱 
-![Tech Stack](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ29hanh6b2JrcDBkeHprMmhxbXZ6am9yZWV1anloNWpibGZzZ243ZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3hLW6IdSX4CMW8RrBn/giphy.gif)
 
 
 | **Layer**     | **Tools & Frameworks**                                   |
@@ -40,5 +39,94 @@ The first version of the project was developed in a team setting, but I'm curren
 | **Auth**      | Simple JWT (access and refresh token handling            |
 | **Dev Tools** | Python venv, npm/yarn, Docker (optional frontend build   |
 
-> 🖼️ Header image from [Wallpapers.com](https://wallpapers.com)  
-> [Vintage Aesthetic Background](https://wallpapers.com/background/vintage-aesthetic-background-lowhpwl1jjxfu0u8.html)
+## Getting Started 🧵😮 
+
+To run the project locally, clone the repository and follow the setup instructions for both frontend and backend.
+
+
+### Backend Setup (Django) 🌲 
+
+1. **Navigate to backend directory:**
+   ```bash
+   cd backend
+   ```
+
+2. **Create a virtual environment and activate it:**
+   ```bash
+   python -m venv venv
+   source venv/bin/activate        # Mac/Linux
+   venv\Scripts\activate         # Windows
+   ```
+
+3. **Install dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. **Apply migrations:**
+   ```bash
+   python manage.py migrate
+   ```
+
+5. **Start the server:**
+   ```bash
+   python manage.py runserver
+   ```
+
+
+### Frontend Setup (React) 🖥️ 
+
+1. **Navigate to frontend directory:**
+   ```bash
+   cd frontend
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+3. **Run the dev server:**
+   ```bash
+   npm run dev
+   ```
+
+> 💡 *Optional:* You can also build and run the frontend with Docker (see `frontend/Dockerfile`).
+
+
+## Planned Improvements ✍️ 
+
+- Redesign the UI with a warmer, more immersive memory-sharing experience  
+- Rebuild core components using a mobile-first design approach  
+- Refactor authentication for better user session handling
+-  Add smoother emoji reaction animations  
+- Expand tag-based memory discovery  
+- Consider implementing audio/voice notes to enhance the intimacy of memories  
+
+
+
+## Folder Structure 📁
+
+```
+nostalgia-threads/
+├── backend/                  # Django REST API
+│   ├── api/                  # Models, views, serializers
+│   └── manage.py
+├── frontend/                 # React app with routing
+│   ├── app/                  # Components and routes
+│   └── public/
+├── home.png                  # Landing page screenshot
+├── feed.png                  # Feed screenshot
+└── README.md                 # You're here!
+```
+
+## 🙏✨ Acknowledgements
+
+I’d like to express my sincere gratitude to **Professor [Shannon Reckinger]** for granting me the opportunity to work on this Final Group Project and for her guidance throughout the semester. Her encouragement created a space for exploration and creativity that made this project possible.
+
+A heartfelt thank you to our **Teaching Assistant [Nandana Sheri]**, whose technical insights—especially around authentication and secure API structure—shaped many of the architectural choices we made. Her advice was both practical and empowering, and I’m incredibly grateful for the time she took to support our progress.
+
+Lastly, I want to acknowledge my **teammates** for laying down the initial foundation of this project. The base setup and core features already in place gave me something to build on and refine, and I appreciate the efforts that went into those contributions.
+
+This project, like all things meaningful, was made possible by collective effort—and I'm thankful for every part of it.
+
