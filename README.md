@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="https://images.wallpapers.com/images/hd/vintage-aesthetic-background-lowhpwl1jjxfu0u8.jpg" alt="Vintage Aesthetic Banner" width="100%" />
+</p>
+
+
 # ✨ Nostalgia Threads 🧵🤎  
 *A space to share and connect through cultural memories.*
 
@@ -34,3 +39,6 @@ The first version of the project was developed in a team setting, but I'm curren
 | **Database**  | SQLite - schema planned and implemented by me            |
 | **Auth**      | Simple JWT (access and refresh token handling            |
 | **Dev Tools** | Python venv, npm/yarn, Docker (optional frontend build   |
+
+> 🖼️ Header image from [Wallpapers.com](https://wallpapers.com)  
+> [Vintage Aesthetic Background](https://wallpapers.com/background/vintage-aesthetic-background-lowhpwl1jjxfu0u8.html)
